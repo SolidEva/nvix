@@ -1,12 +1,3 @@
-<p align="center" style="color:grey">
-
-![image](https://github.com/niksingh710/nvix/assets/60490474/89503d51-ca86-4933-872f-3f60c32202a9)
-
-<div align="center">
-<table>
-<tbody>
-<td align="center">
-<img width="2000" height="0"><br>
 
 ##### `"This configuration is modular by design—if you love a part of it, grab that slice, plug it into your Nixvim config, and roll with it!"`
 
@@ -29,7 +20,6 @@ Nvix is a **modular** and **powerful** Neovim configuration built over [Nixvim](
 - **Three Configurations**:
   - **Bare**: Minimal setup for quick edits on any server.
   - **Core**: A daily-driver setup with LSP and language support.
-  - **Full**: All-in-one, feature-rich setup, including LaTeX support.
 - **Customizable**: Import modules individually or override configurations using `config.nvix`.
 
 ---
@@ -39,19 +29,13 @@ Nvix is a **modular** and **powerful** Neovim configuration built over [Nixvim](
 ### Bare Configuration
 For a minimal setup with basic mappings and options, ideal for quick edits:
 ```sh
-nix run "github:niksingh710/nvix#bare"
+nix run "github:solidhal/nvix#bare"
 ```
 
 ### Core Configuration
 For a fully-featured daily driver with LSP and language support:
 ```sh
-nix run "github:niksingh710/nvix#core"
-```
-
-### Full Configuration
-For a comprehensive setup with jumbo packs (e.g., LaTeX support):
-```sh
-nix run "github:niksingh710/nvix#full"
+nix run "github:solidhal/nvix#core"
 ```
 
 ---
@@ -123,7 +107,6 @@ The configurations build on one another:
 | [buffer](./modules/buffer/README.md)       | Bare, Core, Full          | Buffer-related features and management.                         |
 | [cmp](./modules/cmp/README.md)             | Core, Full          | Completion engine setup and configuration.                      |
 | [colorschemes](./modules/colorschemes/README.md) | Bare, Core, Full           | Themes for Neovim, including TokyoDark and TokyoNight.          |
-| [copilot](./modules/copilot/README.md)     | Bare, Core, Full                | GitHub Copilot integration in Neovim.                           |
 | [dashboard](./modules/dashboard/README.md) | Core, Full          | Neovim start dashboard and related setup.                       |
 | [explorer](./modules/explorer/README.md)   | Bare, Core, Full          | File explorer integration, including neo-tree and oil.          |
 | [firenvim](./modules/firenvim/README.md)   | Core, Full          | Browser-based text editing with Firenvim.                       |
@@ -166,7 +149,6 @@ Nvix was initially created as a learning experiment while exploring Nix. Over ti
 ### Why are there three configurations?
 - **Bare**: For lightweight, minimal editing without distractions.
 - **Core**: For regular usage with full LSP and language support.
-- **Full**: For advanced workflows requiring plugins like LaTeX.
 
 ### Can I use specific modules without the full configuration?
 **Absolutely!** Nvix is modular, so you can pick and choose modules (e.g., lualine) to include in your setup. This allows you to quickly spin up an editor with your preferences without adopting the full configuration.

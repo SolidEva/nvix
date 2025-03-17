@@ -27,14 +27,12 @@
         default = check (nvix "core") "Checks if core builds fine.";
         core = default;
         bare = check (nvix "bare") "Checks if bare builds fine";
-        full = check (nvix "full") "Checks if full builds fine";
       };
       # Lets you run `nix run .` to start nixvim
       packages = rec {
         default = package (nvix "core") "Balanced for regular usage";
         core = default;
         bare = package (nvix "bare") "Minimal utility set (Good for servers to quick spin)";
-        full = package (nvix "full") "Full utility set (Full Set contains tex utilities)";
       };
       formatter = pkgs.nixpkgs-fmt;
     };
