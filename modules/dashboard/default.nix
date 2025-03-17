@@ -8,7 +8,7 @@
         packages.enable = false;
         footer = [
           ""
-          "From <niksingh710> | Made with ♥️"
+          "MROW"
           ""
         ];
         mru.limit = 5;
