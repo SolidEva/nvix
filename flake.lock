@@ -269,8 +269,8 @@
     "tokyodark": {
       "flake": false,
       "locked": {
-        "lastModified": 1742621116,
-        "narHash": "sha256-mEB8AV1tCSkiSkqn/RPHvYhlhGYavAD628qJgODDqeE=",
+        "lastModified": 1742663115,
+        "narHash": "sha256-HaG30EGW2gNiH5cfGhAdlUxv6LWYX8oAB83PebnmmZ8=",
         "path": "/home/eva/Documents/tokyodark.nvim",
         "type": "path"
       },
