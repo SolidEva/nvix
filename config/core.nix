@@ -14,4 +14,5 @@
     self.nvixModules.colorschemes
     self.nvixModules.auto-session
   ];
+
 }

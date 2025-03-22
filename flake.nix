@@ -21,13 +21,14 @@
       flake = false;
     };
 
-    tokyodark = {
-      url = "github:tiagovla/tokyodark.nvim";
+    md-pdf = {
+      url = "github:arminveres/md-pdf.nvim";
       flake = false;
     };
 
-    md-pdf = {
-      url = "github:arminveres/md-pdf.nvim";
+    # future hickey
+    tokyodark = {
+      url = "/home/eva/Documents/tokyodark.nvim";
       flake = false;
     };
 
