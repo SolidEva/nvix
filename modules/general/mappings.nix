@@ -5,6 +5,7 @@ let
   v = [
 
     (mkKeymap "v" "<c-s>" "<esc>:w<cr>" "Saving File")
+    (mkKeymap "v" "<leader>fs" "<esc>:w<cr>" "Save File")
     (mkKeymap "v" "<c-c>" "<esc>" "Escape")
 
     (mkKeymap "v" "<a-j>" ":m '>+1<cr>gv-gv" "Move Selected Line Down")
@@ -37,6 +38,7 @@ let
 
   normal = [
     (mkKeymap "n" "<c-s>" "<cmd>w ++p<cr>" "Save the file")
+    (mkKeymap "n" "<leader>fs" "<esc>:w<cr>" "Save File")
     (mkKeymap "n" "<c-a-=>" "<C-a>" "Increase Number")
     (mkKeymap "n" "<c-a-->" "<C-x>" "Decrease Number")
 

@@ -34,7 +34,8 @@ modules.imports = [
 
 | Key      | Action                      |
 |----------|-----------------------------|
-| `<C-s>`  | Saving File                 |
+| `<C-s>`  | Save the File                 |
+| `<Leader>fs`| Save the File                         |
 | `<C-c>`  | Escape                     |
 | `<A-j>`  | Move Selected Line Down    |
 | `<A-k>`  | Move Selected Line Up      |
@@ -63,6 +64,7 @@ modules.imports = [
 | Key         | Action                            |
 |-------------|-----------------------------------|
 | `<C-s>`     | Save the File                    |
+| `<Leader>fs`| Save the File                         |
 | `<C-A-=>`   | Increase Number                  |
 | `<C-A-->`   | Decrease Number                  |
 | `<A-j>`     | Move Line Down                   |
