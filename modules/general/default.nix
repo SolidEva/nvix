@@ -43,7 +43,7 @@ in {
 
     undofile = true;
 
-    wrap = false;
+    wrap = true;
 
     virtualedit = "block";
     winminwidth = 5;
