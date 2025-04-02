@@ -27,8 +27,8 @@
     };
 
     # future hickey
-    tokyodark = {
-      url = "/home/eva/Documents/tokyodark.nvim";
+    hickey = {
+      url = "/home/eva/Documents/hickey.nvim";
       flake = false;
     };
 

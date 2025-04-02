@@ -2,8 +2,8 @@
 {
   extraPlugins = [
     (pkgs.vimUtils.buildVimPlugin {
-      name = "tokyodark";
-      src = inputs.tokyodark;
+      name = "hickey";
+      src = inputs.hickey;
     })
   ];
   extraConfigLuaPre = # lua
@@ -40,6 +40,6 @@
           }
         end,
       }
-      require("tokyodark").setup(options)
+      require("hickey").setup(options)
     '';
 }
