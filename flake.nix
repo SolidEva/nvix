@@ -6,11 +6,6 @@
     nixvim.url = "github:nix-community/nixvim";
     flake-parts.url = "github:hercules-ci/flake-parts";
 
-    buffer-manager = {
-      url = "github:j-morano/buffer_manager.nvim";
-      flake = false;
-    };
-
     oil-vcs-status = {
       url = "github:SirZenith/oil-vcs-status";
       flake = false;

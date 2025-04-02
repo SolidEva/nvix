@@ -1,12 +1,6 @@
 { pkgs, inputs, lib, ... }:
 {
-  extraPlugins = [
-    (pkgs.vimUtils.buildVimPlugin {
-      name = "buffer-manager";
-      src = inputs.buffer-manager;
-      dependencies = [ pkgs.vimPlugins.plenary-nvim ];
-    })
-  ];
+  extraPlugins = [];
   plugins = {
     harpoon = {
       enable = true;

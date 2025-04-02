@@ -24,13 +24,9 @@ read keymaps.nix in this dir
 To include the Buffer module in your Nixvim configuration, add the necessary inputs and module imports as shown below:
 
 ```nix
-# Add Nvix and Buffer Manager to inputs
+# Add Nvix and to inputs
 inputs = {
   nvix.url = "github:niksingh710/nvix";
-  buffer-manager = {
-    url = "github:j-morano/buffer_manager.nvim";
-    flake = false;
-  };
 };
 
 # Import the required modules
