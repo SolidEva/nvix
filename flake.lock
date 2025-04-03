@@ -60,8 +60,8 @@
     "hickey": {
       "flake": false,
       "locked": {
-        "lastModified": 1743627312,
-        "narHash": "sha256-TONdjM62dPAwP2rA+smx2Ojgk94IpEFjEYQiZBA7pIU=",
+        "lastModified": 1743636051,
+        "narHash": "sha256-O5w0pXWtJ3mbUgzUX/6/RXTDg27XzWyDqp7D7Zahrss=",
         "path": "/home/eva/Documents/hickey.nvim",
         "type": "path"
       },

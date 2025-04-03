@@ -1,9 +1,6 @@
-
 ##### `"This configuration is modular by design—if you love a part of it, grab that slice, plug it into your Nixvim config, and roll with it!"`
 
 Nvix is a **modular** and **powerful** Neovim configuration built over [Nixvim](https://github.com/nix-community/nixvim). It leverages the Nix ecosystem to create flexible, reproducible setups for Neovim. Whether you need a minimal config for quick edits or a fully-featured development environment, Nvix has you covered!
-
-![GitHub Stars](https://img.shields.io/github/stars/niksingh710/nvix?style=social) ![GitHub Forks](https://img.shields.io/github/forks/niksingh710/nvix?style=social) ![GitHub Issues](https://img.shields.io/github/issues/niksingh710/nvix) ![License: MIT](https://img.shields.io/badge/license-MIT-green) ![Nix Flake Compatible](https://img.shields.io/badge/Nix-Flake_Compatible-blue)
 
 <img width="2000" height="0">
 </td>
@@ -60,7 +57,7 @@ sh <(curl -L https://nixos.org/nix/install) --daemon
 
 ```nix
 inputs = {
-  nvix.url = "github:niksingh710/nvix";
+  nvix.url = "github:solidhal/nvix";
 };
 
 environment.packages = [
@@ -187,7 +184,7 @@ Then, add Nvix modules to your configuration:
 # Add Nvix to inputs
 inputs = {
   ...
-  nvix.url = "github:niksingh710/nvix";
+  nvix.url = "github:solidhal/nvix";
   ...
 };
 
