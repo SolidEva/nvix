@@ -23,7 +23,7 @@
 
     # future hickey
     hickey = {
-      url = "/home/eva/Documents/hickey.nvim";
+      url = "github:solidhal/hickey.nvim";
       flake = false;
     };
 

@@ -60,14 +60,17 @@
     "hickey": {
       "flake": false,
       "locked": {
-        "lastModified": 1743636051,
-        "narHash": "sha256-O5w0pXWtJ3mbUgzUX/6/RXTDg27XzWyDqp7D7Zahrss=",
-        "path": "/home/eva/Documents/hickey.nvim",
-        "type": "path"
+        "lastModified": 1743627235,
+        "narHash": "sha256-PG7sbqP9MWmve1Z7LHTPNsrFq+zIP/BQRNzIfEYmIQo=",
+        "owner": "solidhal",
+        "repo": "hickey.nvim",
+        "rev": "fc24775c2bc2526cd93a5be164fa7062801b9d66",
+        "type": "github"
       },
       "original": {
-        "path": "/home/eva/Documents/hickey.nvim",
-        "type": "path"
+        "owner": "solidhal",
+        "repo": "hickey.nvim",
+        "type": "github"
       }
     },
     "ixx": {
@@ -147,11 +150,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1742456341,
-        "narHash": "sha256-yvdnTnROddjHxoQqrakUQWDZSzVchczfsuuMOxg476c=",
+        "lastModified": 1743689281,
+        "narHash": "sha256-y7Hg5lwWhEOgflEHRfzSH96BOt26LaYfrYWzZ+VoVdg=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "7344a3b78128f7b1765dba89060b015fb75431a7",
+        "rev": "2bfc080955153be0be56724be6fa5477b4eefabb",
         "type": "github"
       },
       "original": {
