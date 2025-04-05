@@ -21,7 +21,7 @@
       flake = false;
     };
 
-    # our colorscheme
+    # future hickey
     hickey = {
       url = "github:solidhal/hickey.nvim";
       flake = false;
