@@ -33,7 +33,7 @@
               return "Ls Inactive"
             end
             for _, client in ipairs(clients) do
-              if client.name ~= "copilot" and client.name ~= "null-ls" and client.name ~= "typos_lsp" then
+              if client.name ~= "null-ls" and client.name ~= "typos_lsp" then
                 local name = client.name:gsub("%[%d+%]", "") -- makes otter-ls[number] -> otter-ls
                 table.insert(lsp_names, name)
               end
