@@ -27,7 +27,7 @@ The CMP module enhances the completion experience in Neovim using the powerful `
 | `<C-CR>`        | Confirm Selection              | Confirm the selected completion, without automatically selecting if none.  |
 | `<C-l>`         | Expand/Jump Snippet Forward    | Expand the snippet or jump to the next snippet placeholder (if available). |
 | `<C-h>`         | Jump Snippet Backward          | Jump to the previous snippet placeholder.                                  |
-| `<C-Space>`     | Ghost Text Accept or Complete  | Accept ghosted text suggestion from Copilot or trigger the completion menu.|
+| `<CR> (aka enter)`     | Ghost Text Accept or Complete  | Accept ghosted text suggestion from Copilot or trigger the completion menu.|
 
 ---
 
