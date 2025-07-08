@@ -74,7 +74,9 @@ in {
     # lua
     ''
       vim.opt.whichwrap:append("<>[]hl")
-      vim.opt.listchars:append("space:·")
+      -- uncomment line below to show spaces as a dot
+      -- if i end up toggling this back on, perhaps look into including https://github.com/0xfraso/nvim-listchars
+      -- vim.opt.listchars:append("space:·")
 
       -- below part set's the Diagnostic icons/colors
       local signs = {
