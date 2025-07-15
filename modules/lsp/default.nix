@@ -27,7 +27,7 @@
     };
   };
 
-  diagnostics = {
+  diagnostics.settings = {
     virtual_text = false;
     underline = true;
     signs = true;
