@@ -8,5 +8,11 @@
     self.nvixModules.colorschemes
     self.nvixModules.snacks
   ];
-  colorscheme = "hickey";
+
+  extraConfigLua =
+  ''
+  vim.o.background = "light"
+  '';
+
+  colorscheme = "rose-pine";
 }
