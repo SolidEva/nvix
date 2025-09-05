@@ -27,7 +27,12 @@ in {
         popupBorderStyle = config.nvix.border;
         sourceSelector.winbar = true;
         extraSources = [ "document_symbols" ];
-        filesystem.followCurrentFile.enabled = true;
+        filesystem = {
+          filteredItems = {
+            hideDotfiles = false;
+          };
+          followCurrentFile.enabled = true;
+        };
         defaultComponentConfigs = {
           diagnostics.symbols = with icons.diagnostics; {
             hint = "${BoldHint}";

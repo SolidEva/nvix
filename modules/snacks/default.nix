@@ -10,8 +10,16 @@
       words.enabled = true;
       picker = {
         enabled = true;
-        sources.explorer.layout.layout.position = "right";
+        sources = {
+          explorer.layout.layout.position = "right";
+          files = {
+              hidden = true;
+              ignored = true;
+          };
+        };
         layout.preset = "telescope";
+        hidden = true;
+        ignored = true;
         win.input.keys = {
           v = (helpers.listToUnkeyedAttrs [ "vsplit" ]) // { mode = "n"; };
           s = (helpers.listToUnkeyedAttrs [ "split" ]) // { mode = "n"; };
