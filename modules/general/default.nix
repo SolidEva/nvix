@@ -19,7 +19,7 @@ in {
 
     expandtab = true;
     shiftwidth = 2;
-    smartindent = true;
+    smartindent = false; # smart indent doesnt let us indent comment lines easilly
     tabstop = 2;
     softtabstop = 2;
 
