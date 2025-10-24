@@ -34,6 +34,8 @@ let
     (mkKeymap "i" "<c-s>" "<esc>:w ++p<cr>" "Save file")
     (mkKeymap "i" "<a-j>" "<esc>:m .+1<cr>==gi" "Move Line Down")
     (mkKeymap "i" "<a-k>" "<esc>:m .-2<cr>==gi" "Move Line Up")
+    (mkKeymap "i" "<down>" "<c-o>gj" "Let the down arrow enter wrapped lines")
+    (mkKeymap "i" "<up>" "<c-o>gk" "Let the up arrow enter wrapped lines")
   ];
 
   normal = [
