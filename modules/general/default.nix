@@ -69,6 +69,11 @@ in {
     }
   ];
 
+  plugins = {
+    direnv.enable = true;
+  };
+
+
   extraLuaPackages = lp: with lp; [ luarocks ];
   extraConfigLua = with icons.diagnostics;
     # lua
